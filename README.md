@@ -2,23 +2,23 @@
 A basic custom block developed during the WordPress Meetup on 24-09-2024 in Lisbon
 
 
-# To get started
+# How to get started
 
-1. To install the node_modules, open the terminal in the plugin root folder and run this command:
+# 1. To get the node_modules, open the terminal in the plugin root folder and run this command:
 
-npm install
+	npm install
 
 
-2. To compile the src folder into the build folder run this command:
+# 2. To compile the block for testing run this command in the plugin root folder:
 
-npm start
+	npm start
 
 This command will keep running and will compile any change you make to the files in the src folder
 
 
-3. To compile and minimize your block for production run this command:
+# 3. To compile and minimize your block for production run this command in the plugin root folder:
 
-npm run build
+	npm run build
 
 This command will run only once.
 
